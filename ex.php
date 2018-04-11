@@ -15,5 +15,5 @@ $liveSPACE = exec("du -sh $vfs/home/$user | cut -f1");
 echo "RAW TOTAL FILES MAX/LIVE : $filescreatedMaxLimit/$liveF";
 echo "RAW MAX LIVE PROCC : $maxNPROC/$livePROC";
 echo "RAW MAX LIVE RAM : $maxRAM/$liveRAM";
-echo9 "RAW MAX LIVE SPACE : $maxSPACE/$liveSPACE";
+echo "RAW MAX LIVE SPACE : $maxSPACE/$liveSPACE";
 ?>
